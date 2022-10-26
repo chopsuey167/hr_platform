@@ -1,0 +1,7 @@
+# Project exclude paths
+/apigw/target/
+/auth/target/
+/company/target/
+/employee/target/
+/eureka-server/target/
+/user/target/
