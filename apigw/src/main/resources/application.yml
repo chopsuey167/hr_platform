@@ -12,18 +12,26 @@ spring:
           uri: lb://AUTH
           predicates:
             - Path=/auth/**
+          filters:
+            - AuthFilter
         - id: company
           uri: lb://COMPANY
           predicates:
             - Path=/companies/**
+          filters:
+            - AuthFilter
         - id: user
           uri: lb://USER
           predicates:
             - Path=/users/**
+          filters:
+            - AuthFilter
         - id: employee
           uri: lb://EMPLOYEE
           predicates:
             - Path=/employees/**
+          filters:
+            - AuthFilter
 eureka:
   client:
     service-url:
