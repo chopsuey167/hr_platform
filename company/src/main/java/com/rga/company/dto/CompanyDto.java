@@ -11,9 +11,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class CompanyDto {
 
-    private String name;
-    private String businessName;
-    private Long taxIdentificationNumber;
-    private String address;
-    private Boolean active;
+  private String name;
+  private String businessName;
+  private Long taxIdentificationNumber;
+  private String address;
+  private Boolean active;
 }

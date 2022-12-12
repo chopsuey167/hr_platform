@@ -11,8 +11,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class EmployeeDto {
 
-    private String firstname;
-    private String lastname;
-    private Long identificationNumber;
-    private Boolean active;
+  private String firstname;
+  private String lastname;
+  private Long identificationNumber;
+  private Boolean active;
 }

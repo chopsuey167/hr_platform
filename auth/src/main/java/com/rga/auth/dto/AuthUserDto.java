@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 public class AuthUserDto {
 
-    private String username;
-    private String password;
+  private String username;
+  private String password;
 
 }
